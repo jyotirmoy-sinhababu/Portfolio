@@ -7,13 +7,15 @@ import './about.css';
 const About = () => {
   return (
     <>
-      <div className='about-img-cnt'></div>
+      <div className='abt-img-cnt'></div>
       <ImgComp />
-      <div>
-        <div>
-          <h1>I aspire to be a Front-end Developer</h1>
+      <div className='abt-txt-cnt'>
+        <div className='abt-header-cnt'>
+          <h1 className='abt-header-txt'>
+            I aspire to be a Front-end Developer
+          </h1>
         </div>
-        <div>
+        <div className='abt-para-txt'>
           <p>
             I am a fresher ECE graduate with quick problem solving skill,
             looking for a job as a Front-end Developer

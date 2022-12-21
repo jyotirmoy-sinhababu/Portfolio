@@ -1,0 +1,12 @@
+.abt-img-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt-txt-cnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
