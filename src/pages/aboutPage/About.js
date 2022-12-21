@@ -1,12 +1,11 @@
 import React from 'react';
-import profilePic from '../../images/myPhoto.jpg';
 
 import './about.css';
 
 const About = () => {
   return (
     <>
-      <div className='img-cnt'></div>
+      <div className='about-img-cnt'></div>
       <div>
         <div>
           <h1>I aspire to be a Front-end Developer</h1>
