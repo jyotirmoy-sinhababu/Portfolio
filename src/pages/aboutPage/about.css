@@ -1,7 +1,16 @@
+.abt-cnt {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  gap: 20px;
+}
+
 .abt-img-cnt {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1500px;
+  width: 100%;
 }
 
 .abt-txt-cnt {
