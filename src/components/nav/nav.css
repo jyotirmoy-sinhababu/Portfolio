@@ -1,6 +1,12 @@
 .nav-cnt {
   display: flex;
+  padding-top: 25px;
   max-width: 1500px;
   width: 100%;
   justify-content: space-around;
+}
+
+.nav-links-cnt {
+  display: flex;
+  gap: 2rem;
 }
