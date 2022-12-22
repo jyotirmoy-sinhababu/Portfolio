@@ -6,6 +6,11 @@
   justify-content: space-around;
 }
 
+.nav-txt {
+  font-size: 35px;
+  color: cadetblue;
+}
+
 .nav-links-cnt {
   display: flex;
   gap: 2rem;

@@ -12,6 +12,7 @@ const NavBar = () => {
         {' '}
         <a
           href='https://www.linkedin.com/in/jyotirmoy-sinhababu-64b9a7212'
+          target='_blank'
           className='nav-link'
         >
           <svg
@@ -27,6 +28,7 @@ const NavBar = () => {
         </a>
         <a
           href='https://github.com/jyotirmoy-sinhababu?tab=repositories'
+          target='_blank'
           className='nav-link'
         >
           <svg
