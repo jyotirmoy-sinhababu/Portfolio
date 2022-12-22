@@ -1,0 +1,6 @@
+.nav-cnt {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  justify-content: space-around;
+}
