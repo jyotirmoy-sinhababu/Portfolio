@@ -8,7 +8,9 @@ import './about.css';
 const About = () => {
   const navigate = useNavigate();
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    navigate('/cnt');
+  };
 
   return (
     <>
@@ -19,9 +21,7 @@ const About = () => {
 
         <div className='abt-txt-cnt'>
           <div className='abt-header-cnt'>
-            <h1 className='abt-header-txt'>
-              I aspire to be a Front-end Developer
-            </h1>
+            <h1 className='abt-header-txt'>Hi I am Jyotirmoy Sinha Babu</h1>
           </div>
           <div className='abt-para-txt'>
             <p>
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className='abt-btn-cnt'>
           <p className='abt-btn-cnt-txt'>Please look around...</p>
-          <button className='abt-btn'>
+          <button onClick={handleClick} className='abt-btn'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='30'
